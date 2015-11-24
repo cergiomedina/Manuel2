@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Feed:</strong>
+  <%= @feedback.feed_id %>
+</p>
+
+<p>
+  <strong>Feed resumen:</strong>
+  <%= @feedback.feed_resumen %>
+</p>
+
+<p>
+  <strong>Feed motivo:</strong>
+  <%= @feedback.feed_motivo %>
+</p>
+
+<p>
+  <strong>Feed fecha:</strong>
+  <%= @feedback.feed_fecha %>
+</p>
+
+<%= link_to 'Edit', edit_feedback_path(@feedback) %> |
+<%= link_to 'Back', feedbacks_path %>

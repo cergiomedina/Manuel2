@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  feed_id: 1
+  feed_resumen: 1
+  feed_motivo: MyString
+  feed_fecha: 2015-11-24
+
+two:
+  feed_id: 1
+  feed_resumen: 1
+  feed_motivo: MyString
+  feed_fecha: 2015-11-24

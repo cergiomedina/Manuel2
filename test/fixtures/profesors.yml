@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  profesor_rut: 1
+  profesor_nombre: MyString
+  profesor_apellido: MyString
+  profesor_correo: MyString
+  profesor_contrasena: MyString
+
+two:
+  profesor_rut: 1
+  profesor_nombre: MyString
+  profesor_apellido: MyString
+  profesor_correo: MyString
+  profesor_contrasena: MyString

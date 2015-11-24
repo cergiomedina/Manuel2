@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Alumno rut:</strong>
+  <%= @alumno.alumno_rut %>
+</p>
+
+<p>
+  <strong>Alumno nombre:</strong>
+  <%= @alumno.alumno_nombre %>
+</p>
+
+<p>
+  <strong>Alumno apellido:</strong>
+  <%= @alumno.alumno_apellido %>
+</p>
+
+<p>
+  <strong>Alumno correo:</strong>
+  <%= @alumno.alumno_correo %>
+</p>
+
+<p>
+  <strong>Alumno contrasena:</strong>
+  <%= @alumno.alumno_contrasena %>
+</p>
+
+<%= link_to 'Edit', edit_alumno_path(@alumno) %> |
+<%= link_to 'Back', alumnos_path %>

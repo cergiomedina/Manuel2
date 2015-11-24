@@ -1,0 +1,25 @@
+<%= form_for(@tipo_encuestum) do |f| %>
+  <% if @tipo_encuestum.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@tipo_encuestum.errors.count, "error") %> prohibited this tipo_encuestum from being saved:</h2>
+
+      <ul>
+      <% @tipo_encuestum.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :tipo_id %><br>
+    <%= f.number_field :tipo_id %>
+  </div>
+  <div class="field">
+    <%= f.label :tipo_nombre %><br>
+    <%= f.text_field :tipo_nombre %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

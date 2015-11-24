@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  tipo_id: 1
+  tipo_nombre: MyString
+
+two:
+  tipo_id: 1
+  tipo_nombre: MyString

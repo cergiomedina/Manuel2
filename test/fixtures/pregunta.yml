@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  pregunta_id: 1
+  pregunta_enunciado: MyString
+  pregunta_descripcion: MyString
+  pregunta_opciones: 1
+
+two:
+  pregunta_id: 1
+  pregunta_enunciado: MyString
+  pregunta_descripcion: MyString
+  pregunta_opciones: 1

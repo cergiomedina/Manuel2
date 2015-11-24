@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  respuesta_id: 1
+  respuesta_valores: 1
+  respuesta_fecha: 2015-11-24
+
+two:
+  respuesta_id: 1
+  respuesta_valores: 1
+  respuesta_fecha: 2015-11-24
