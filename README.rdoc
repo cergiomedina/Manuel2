@@ -1,28 +1,12 @@
-== README
+Para subir el script de Postgresql se necesita de phppgadmin previamente instalado.
+Ahi se puede importar el archivo .sql de la carpeta "base de datos".
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Ya cargado el script es necesario ingresar a la carpeta "manuel" del proyecto y ejecutar
 
-Things you may want to cover:
+bundle install
 
-* Ruby version
+Luego levantar el servidor
 
-* System dependencies
+rails s
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Y deberia estar todo en orden.
