@@ -1,4 +1,4 @@
-	
+    
 
 --
 -- PostgreSQL database dump
@@ -27,7 +27,6 @@ CREATE TABLE alumnos (
     alumno_nombre character varying NOT NULL,
     alumno_apellido character varying,
     alumno_correo character varying NOT NULL,
-    alumno_contrasena character varying NOT NULL,
     created_at timestamp without time zone NOT NULL,
     updated_at timestamp without time zone NOT NULL
 );
@@ -288,7 +287,6 @@ CREATE TABLE profesors (
     profesor_nombre character varying NOT NULL,
     profesor_apellido character varying,
     profesor_correo character varying NOT NULL,
-    profesor_contrasena character varying NOT NULL,
     created_at timestamp without time zone NOT NULL,
     updated_at timestamp without time zone NOT NULL
 );

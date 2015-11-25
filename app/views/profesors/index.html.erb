@@ -9,7 +9,7 @@
       <th>Profesor nombre</th>
       <th>Profesor apellido</th>
       <th>Profesor correo</th>
-      <th>Profesor contrasena</th>
+
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -21,7 +21,6 @@
         <td><%= profesor.profesor_nombre %></td>
         <td><%= profesor.profesor_apellido %></td>
         <td><%= profesor.profesor_correo %></td>
-        <td><%= profesor.profesor_contrasena %></td>
         <td><%= link_to 'Show', profesor %></td>
         <td><%= link_to 'Edit', edit_profesor_path(profesor) %></td>
         <td><%= link_to 'Destroy', profesor, method: :delete, data: { confirm: 'Are you sure?' } %></td>
