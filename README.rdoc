@@ -1,3 +1,6 @@
+MANUEL v2.0
+Manejador de Encuestas Libres, version nueva y mejorada de la original.
+
 Para subir el script de Postgresql se necesita de phppgadmin previamente instalado.
 Ahi se puede importar el archivo .sql de la carpeta "base de datos".
 
